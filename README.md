@@ -1,0 +1,1 @@
+This repository contains a Perl script demonstrating an uncommon error related to checking for undefined values. The script incorrectly uses eq to compare against undef, which will always return false.  The solution demonstrates the correct use of defined() to check for undefined values.
